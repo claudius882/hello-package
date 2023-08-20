@@ -1,0 +1,13 @@
+{
+    "name": "claudius882/hello-package",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "claudius882\\HelloPackage\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
